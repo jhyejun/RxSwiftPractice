@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CBEC0F20205163060042DC1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC0F1F205163060042DC1D /* AppDelegate.swift */; };
-		CBEC0F22205163060042DC1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC0F21205163060042DC1D /* ViewController.swift */; };
 		CBEC0F25205163060042DC1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEC0F23205163060042DC1D /* Main.storyboard */; };
 		CBEC0F27205163060042DC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEC0F26205163060042DC1D /* Assets.xcassets */; };
 		CBEC0F2A205163060042DC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEC0F28205163060042DC1D /* LaunchScreen.storyboard */; };
 		CBEC0F34205166C40042DC1D /* Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC0F33205166C40042DC1D /* Chapter2.swift */; };
+		CBEC0F3620516A040042DC1D /* Chapter2.md in Resources */ = {isa = PBXBuildFile; fileRef = CBEC0F3520516A040042DC1D /* Chapter2.md */; };
 		E994548B72104458E88F31B2 /* Pods_RxSwiftPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C9493F6CA11A90FF564341 /* Pods_RxSwiftPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +21,12 @@
 		78E2C23DFA4A5A93AA63A06C /* Pods-RxSwiftPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		CBEC0F1C205163060042DC1D /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEC0F1F205163060042DC1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBEC0F21205163060042DC1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBEC0F24205163060042DC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBEC0F26205163060042DC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEC0F29205163060042DC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBEC0F2B205163060042DC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBEC0F33205166C40042DC1D /* Chapter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2.swift; sourceTree = "<group>"; };
+		CBEC0F3520516A040042DC1D /* Chapter2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Chapter2.md; sourceTree = "<group>"; };
 		DCE10D38733EF368DE709A20 /* Pods-RxSwiftPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,15 +80,23 @@
 		CBEC0F1E205163060042DC1D /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC0F3720516A1D0042DC1D /* Chapter2 */,
 				CBEC0F1F205163060042DC1D /* AppDelegate.swift */,
-				CBEC0F21205163060042DC1D /* ViewController.swift */,
 				CBEC0F23205163060042DC1D /* Main.storyboard */,
 				CBEC0F26205163060042DC1D /* Assets.xcassets */,
 				CBEC0F28205163060042DC1D /* LaunchScreen.storyboard */,
 				CBEC0F2B205163060042DC1D /* Info.plist */,
-				CBEC0F33205166C40042DC1D /* Chapter2.swift */,
 			);
 			path = RxSwiftPractice;
+			sourceTree = "<group>";
+		};
+		CBEC0F3720516A1D0042DC1D /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC0F33205166C40042DC1D /* Chapter2.swift */,
+				CBEC0F3520516A040042DC1D /* Chapter2.md */,
+			);
+			path = Chapter2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +164,7 @@
 				CBEC0F2A205163060042DC1D /* LaunchScreen.storyboard in Resources */,
 				CBEC0F27205163060042DC1D /* Assets.xcassets in Resources */,
 				CBEC0F25205163060042DC1D /* Main.storyboard in Resources */,
+				CBEC0F3620516A040042DC1D /* Chapter2.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEC0F22205163060042DC1D /* ViewController.swift in Sources */,
 				CBEC0F20205163060042DC1D /* AppDelegate.swift in Sources */,
 				CBEC0F34205166C40042DC1D /* Chapter2.swift in Sources */,
 			);
